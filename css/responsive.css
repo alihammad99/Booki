@@ -172,8 +172,8 @@
     nav {
         margin-bottom: 15px;
     }
-    nav ul li {
-        font-size: 18px;
+    nav ul li a {
+        font-size: 16px;
     }
     header {
         padding: 0;
