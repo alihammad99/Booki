@@ -33,13 +33,13 @@
         width: 100px;
     }
     h1 {
-        font-size: 20px;
+        font-size: 24px;
     }
     h2 {
-        font-size: 16px;
+        font-size: 18px;
     }
     p {
-        font-size: 15px;
+        font-size: 16px;
         line-height: 30px;
     }
     main div {
@@ -161,13 +161,13 @@
 
 @media (max-width: 767px) {
     h1 {
-        font-size: 22px;
+        font-size: 20px;
     }
     h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
     p {
-        font-size: 16px;
+        font-size: 15px;
     }
     nav {
         margin-bottom: 15px;
@@ -182,7 +182,16 @@
         padding: 20px;
     }
     form {
-        width: 95%;
+        width: 65%;
+    }
+    form input {
+        min-width: 205px;
+        font-size: 18px;
+        padding: 0 10px;
+    }
+    form button {
+        font-size: 18px;
+        padding: 16px;
     }
     main section {
         order: 2;
@@ -190,6 +199,9 @@
     }
     main article {
         order: 1;
+    }
+    main div article {
+        min-width: 100%;
     }
     .show-more {
         text-align: left;
