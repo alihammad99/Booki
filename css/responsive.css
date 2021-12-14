@@ -161,22 +161,28 @@
 
 @media (max-width: 767px) {
     h1 {
-        font-size: 25px;
+        font-size: 22px;
     }
     h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
     p {
-        font-size: 18px;
+        font-size: 16px;
     }
     nav {
         margin-bottom: 15px;
+    }
+    nav ul li {
+        font-size: 18px;
     }
     header {
         padding: 0;
     }
     .hero {
         padding: 20px;
+    }
+    form {
+        width: 95%;
     }
     main section {
         order: 2;
