@@ -40,9 +40,11 @@
         padding: 20px;
         margin: 0;
     }
+    .logo {
+        margin-left: 0;
+    }
     .logo img {
         width: 100px;
-        margin-left: 0;
     }
     h1 {
         font-size: 24px;
